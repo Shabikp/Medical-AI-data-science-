@@ -1,0 +1,32 @@
+Project-3: Breast Cancer Survival Prediction (Google Colab)
+
+Description
+
+This project builds a ‘Decision Tree classifier’ to predict the survival status ("Alive" or "Dead") of breast cancer patients. The model is trained using the "Gini Impurity" criterion on the SEER Program dataset. The project also includes an analysis to find the optimal `max_depth` for the tree by plotting validation accuracy against model complexity.
+
+---
+
+How to Run in Google Colab
+
+Prerequisites
+
+The required libraries (`pandas`, `scikit-learn`, `matplotlib`) are pre-installed in the Google Colab environment.
+
+Steps to Run
+
+1. Open Google Colab: Navigate to [https://colab.research.google.com/](https://colab.research.google.com/).
+
+2. Upload the Notebook: In the top menu, go to `File` > `Upload notebook...` and select `project3.ipynb` file.
+
+3. Upload the Dataset:
+    -In the left sidebar, click the ‘folder icon’.
+    -Click the "Upload to session storage" icon (a page with an arrow).
+    -Select the `Breast_Cancer.csv` dataset file.
+
+4. Execute the Notebook: Run all the cells in order from top to bottom. You can do this by selecting `Runtime` > `Run all` from the top menu.
+
+---
+
+Expected Output
+
+The script will preprocess the data, train multiple models, and finally generate and display a ‘plot’. This plot shows the Training and Validation Accuracy as the `max_depth` of the Decision Tree is varied from 1 to 20.
